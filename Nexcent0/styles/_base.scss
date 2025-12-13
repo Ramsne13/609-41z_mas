@@ -111,8 +111,11 @@ button {
 
 button {
     cursor: pointer;
+    transition: transform 0.2s;
+    &:active{
+        transform: scale(0.9);
+    }
 }
-
 a {
     color: $dark;
     text-decoration: none;
@@ -160,3 +163,4 @@ a {
     }
 
 }
+
