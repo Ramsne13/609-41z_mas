@@ -22,7 +22,7 @@ body {
     max-width: 1152px;
     margin: 0 auto;
     @media (max-width: $breakpoint-xl) {
-        max-width: $container-lg;
+        max-width: $breakpoint-lg;
     }
     @media (max-width: $breakpoint-lg) {
         max-width: $breakpoint-md
@@ -158,4 +158,5 @@ a {
     img {
         vertical-align: middle;
     }
+
 }
